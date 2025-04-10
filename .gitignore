@@ -1,0 +1,57 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.env
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook-specific ignores
+*.ipynb_checkpoints/
+*.ipynb.metadata
+
+# NLTK data downloads
+nltk_data/
+
+# Gensim pre-trained model downloads
+gensim-data/
+
+# Virtual environment ignores
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+
+# Dependency lock files (if not intentionally tracked)
+Pipfile.lock
+poetry.lock
+
+# Large data files or caches
+*.cache
+*.pickle
+*.h5
+*.pkl
+*.tar.gz
+*.zip
